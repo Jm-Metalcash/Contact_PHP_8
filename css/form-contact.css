@@ -5,6 +5,14 @@
     margin-top: 4px;
     margin-bottom: 50px;
 }
+
+
+.choice-contact-form button.inactive {
+    background: rgb(230, 230, 239);
+    padding: 8px 15px;
+    border: 1px solid #1d1d4f;
+    border-radius: 20px;
+}
 .choice-contact-form p {
     margin: 0;
     font-size: 18px;
@@ -31,14 +39,14 @@
 }
 
 .appointment-title {
-    font-size: 22px;
+    font-size: 18px;
     color: #2B6CB0;
     margin-bottom: 15px;
     font-weight: 600;
 }
 
 .appointment-description {
-    font-size: 16px;
+    font-size: 25px;
     color: #f4f4f4;
     margin: 10px 0;
     display: flex;

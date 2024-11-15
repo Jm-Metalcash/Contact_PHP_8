@@ -859,11 +859,14 @@ define("NEW_TITLE_INDEX_PACKAGE", "Colis");
 define("NEW_FIELD_TYPE_METAL", "Type de métal");
 define("NEW_PLACEHOLDER_TYPE_METAL", "exemple: étain");
 define("NEW_FIELD_WEIGHT", "Poids en kg");
+define("NEW_FIELD_WEIGHT_PLACEHOLDER", "exemple: 10");
 define("NEW_FIELD_DESCRIPTION_PACKAGE", "Descriptif (facultatif)");
 define("NEW_PLACEHOLDER_DESCRIPTION_PACKAGE", "exemple: couverts");
-define("NEW_BTN_ADD_METAL", "Ajouter un autre matériau");
+define("NEW_ERROR_TOTAL_WEIGHT", "Le poids total du colis doit être supérieur à 10 kg.");
+define("NEW_ERROR_TOTAL_MATERIAL", "Limite de matériaux atteinte pour ce colis.");
+define("NEW_BTN_ADD_METAL", "Ajouter un autre métal");
 define("NEW_FIELD_LASTTEXT_CONDITION", "J'accepte les");
-define("NEW_FIELD_FIRSTTEXT_CONDITION", "termes, conditions et politique");
+define("NEW_FIELD_FIRSTTEXT_CONDITION", "conditions générales");
 define("NEW_LINK_CONDITION", "https://www.metalcash.be/legal");
 define("BTN_SUBMIT_BORDEREAU", "Générer le bordereau d'achat");
 define("BTN_SUBMIT_ERROR_BORDEREAU", "Merci de vérifier et de corriger les informations avant de procéder à la génération du bordereau d'achat.");
@@ -871,18 +874,23 @@ define("BTN_SUBMIT_ERROR_BORDEREAU", "Merci de vérifier et de corriger les info
 
 // PAGE BORDEREAU GENERATE
 define("NEW_TITLE_PAGE_BORDEREAU", "Bordereau d'achat");
-define("BTN_DOWNLOAD_PDF", "Télécharger PDF");
+define("BTN_DOWNLOAD_ALL_PDF", "Télécharger tous les PDF");
+define("BTN_TEXT2_DOWNLOAD_ALL_PDF", "Ensemble des colis");
+define("BTN_DOWNLOAD_ALL_PDF_BLANK", "Télécharger"); //NEW
+define("BTN2_DOWNLOAD_ALL_PDF_BLANK", "Cliquez ici"); //NEW
+define("BTN_DOWNLOAD_PDF", "Télécharger PDF - colis");
 define("BTN_TEXT2_DOWNLOAD_PDF", "Colis");
 define("TITLE_HEADER_BORDEREAU", "Bordereau d'achat");
 define("DATE_GENERATE_BARRE_CODE", "Créé le");
 define("HEADER_BORDEREAU_INFORMATIONS", "SERVICE D'ENVOI POSTAL");
 define("HEADER_BORDEREAU_NOTE", "NOTE: Les colis pesant moins de 10 kg ne sont pas acceptés (voir les conditions en bas de page).");
 define("BENEFICIARY_INFO", "Identification du bénéficiaire");
+define("BENEFICIARY_INFO_BANKNAME", "Banque");
 define("BENEFICIARY_INFO_STREET", "Rue");
 define("BENEFICIARY_INFO_LOCALITY", "CP, Localité");
 define("BENEFICIARY_INFO_PHONE", "Téléphone");
-define("NEW_FIELD_ID_CARD_BORDEREAU", "Carte d'identité");
-define("NEW_FIELD_ID_EXPIRY_BORDEREAU", "Expiration de la CI");
+define("NEW_FIELD_ID_CARD_BORDEREAU", "N° Carte d'identité");
+define("NEW_FIELD_ID_EXPIRY_BORDEREAU", "Date d'expiration");
 define("BORDEREAU_CONDITION_ACCEPT", "En signant ce document, vous acceptez nos conditions générales.");
 define("BORDEREAU_CERTIFCATE_TITLE", "Certificat de propriété");
 define("BORDEREAU_CERTIFCATE_DESCRIPTION", "Je certifie sur l'honneur que le matériel proposé à la vente m'appartient de manière exclusive et sans restriction, qu'il n'est issu d'aucune activité illégale, qu'il n'est ni mis en gage, ni cédé, et qu'il ne contient aucun composant dangereux ou radioactif.");
@@ -893,6 +901,7 @@ define("BORDEREAU_DATE", "Date et lieu :");
 define("BORDEREAU_SIGNATURE_NAME", "Nom :");
 define("BORDEREAU_SIGNATURE", "Signature :");
 define("BORDEREAU_CUTE_TEXT", "N'oubliez pas de découper la partie ci-dessous et de l'apposer à l'extérieur du colis bien visible");
+define("BORDEREAU_BLANK_NAME_FIRSTNAME", "Votre nom");
 define("BORDEREAU_BTN_BACK", "Retour vers l'accueil");
 
 

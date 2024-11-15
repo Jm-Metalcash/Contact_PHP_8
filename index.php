@@ -25,7 +25,7 @@ include 'lang/lang.fr_be.php';
                     <h3 class="appointment-title"><?= APPOINTMENT_TITLE ?></h3>
                     <p class="appointment-description">
                         <i class="fas fa-phone-alt phone-icon"></i>
-                        <a href="tel:+32474011293" class="phone-link">+32 474 01 12 93</a>
+                        <a href="tel:+32474011293" class="phone-link">+32 78 150 160</a>
                     </p>
                     <p class="appointment-hours">
                         <?= APPOINTMENT_HOURS ?>
@@ -37,7 +37,7 @@ include 'lang/lang.fr_be.php';
                     <p><?= CHOICE_CONTACT_FORM ?></p>
                     <div class="choice-contact-buttons">
                         <button class="choice-contact-button" id="contactButton" onclick="displayForm('form-contact-box', this)"><i class="fa-regular fa-envelope"></i> <?= CONTACT_BUTTON ?></button>
-                        <button class="choice-contact-button" id="bordereauButton" onclick="displayForm('form-bordereau-box', this)"><i class="fa-regular fa-file-lines"></i> <?= BORDEREAU_BUTTON ?><span class="noNeccesary">(<?= TEXT_POSTAL_DELIVERY ?>)</span></button>
+                        <button class="choice-contact-button" id="bordereauButton" onclick="displayForm('form-bordereau-box', this)"><i class="fa-regular fa-file-lines"></i> <?= BORDEREAU_BUTTON ?></button>
                     </div>
                 </div>
 
@@ -134,12 +134,12 @@ include 'lang/lang.fr_be.php';
                                     <?= NEW_FIELD_FIRSTNAME ?>
                                 </label>
                                 <input type="text" name="firstname" id="firstname" class="formbold-form-input input-value"
-                                    placeholder="<?= NEW_PLACEHOLDER_FIRSTNAME ?>" />
+                                    placeholder="<?= NEW_PLACEHOLDER_FIRSTNAME ?>" required />
                             </div>
                             <div>
                                 <label for="lastname" class="formbold-form-label"> <?= NEW_FIELD_LASTNAME ?> </label>
                                 <input type="text" name="lastname" id="lastname" class="formbold-form-input input-value"
-                                    placeholder="<?= NEW_PLACEHOLDER_LASTNAME ?>" />
+                                    placeholder="<?= NEW_PLACEHOLDER_LASTNAME ?>" required />
                             </div>
                         </div>
 
@@ -147,13 +147,13 @@ include 'lang/lang.fr_be.php';
                             <div>
                                 <label for="email" class="formbold-form-label"> <?= NEW_FIELD_EMAIL ?> </label>
                                 <input type="email" name="email" id="email" class="formbold-form-input input-value"
-                                    placeholder="dupont@exemple.com" />
+                                    placeholder="dupont@exemple.com" required />
                                 <div id="emailError" class="error-message"><?= NEW_ERROR_MESSAGE_EMAIL ?></div>
                             </div>
                             <div>
                                 <label for="phone" class="formbold-form-label"> <?= NEW_FIELD_PHONE ?> </label>
                                 <input type="text" name="phone" id="phone" class="formbold-form-input input-value"
-                                    placeholder="<?= NEW_PLACEHOLDER_PHONE ?>" />
+                                    placeholder="<?= NEW_PLACEHOLDER_PHONE ?>" required />
                                 <div id="phoneError" class="error-message"><?= NEW_ERROR_MESSAGE_PHONE ?></div>
                             </div>
                         </div>
@@ -163,12 +163,12 @@ include 'lang/lang.fr_be.php';
                             <div style="width: 100% !important;">
                                 <label for="address" class="formbold-form-label"><?= NEW_FIELD_ADDRESS ?></label>
                                 <input type="text" name="address" id="address" class="formbold-form-input input-value"
-                                    placeholder="<?= NEW_PLACEHOLDER_ADDRESS ?>" />
+                                    placeholder="<?= NEW_PLACEHOLDER_ADDRESS ?>" required />
                             </div>
                             <div>
                                 <label for="postalCode" class="formbold-form-label"><?= NEW_FIELD_POSTALCODE ?></label>
                                 <input type="text" name="postalCode" id="postalCode" class="formbold-form-input input-value"
-                                    placeholder="<?= NEW_PLACEHOLDER_POSTALCODE ?>" />
+                                    placeholder="<?= NEW_PLACEHOLDER_POSTALCODE ?>" required />
                             </div>
                         </div>
 
@@ -177,12 +177,12 @@ include 'lang/lang.fr_be.php';
                             <div>
                                 <label for="locality" class="formbold-form-label"><?= NEW_FIELD_LOCALITY ?></label>
                                 <input type="text" name="locality" id="locality" class="formbold-form-input input-value"
-                                    placeholder="<?= NEW_PLACEHOLDER_LOCALITY ?>" />
+                                    placeholder="<?= NEW_PLACEHOLDER_LOCALITY ?>" required />
                             </div>
                             <div>
                                 <label for="country" class="formbold-form-label"><?= NEW_FIELD_COUNTRY ?></label>
                                 <input type="text" name="country" id="country" class="formbold-form-input input-value"
-                                    placeholder="<?= NEW_PLACEHOLDER_COUNTRY ?>" />
+                                    placeholder="<?= NEW_PLACEHOLDER_COUNTRY ?>" required />
                             </div>
                         </div>
 
@@ -202,7 +202,7 @@ include 'lang/lang.fr_be.php';
                                 <label for="iban" class="formbold-form-label">
                                     <?= NEW_FIELD_IBAN ?>
                                 </label>
-                                <input type="text" name="iban" id="iban" class="formbold-form-input input-value" placeholder="exemple: BE6800000000011" />
+                                <input type="text" name="iban" id="iban" class="formbold-form-input input-value" placeholder="exemple: BE6800000000011" required />
                                 <div id="ibanError" class="error-message"><?= NEW_ERROR_MESSAGE_IBAN ?></div>
                             </div>
                         </div>
@@ -213,12 +213,12 @@ include 'lang/lang.fr_be.php';
                             <div>
                                 <label for="bankName" class="formbold-form-label"> <?= NEW_FIELD_BANKNAME ?> </label>
                                 <input type="text" name="bankName" id="bankName" class="formbold-form-input input-value"
-                                    placeholder="<?= NEW_PLACEHOLDER_BANKNAME ?>" />
+                                    placeholder="<?= NEW_PLACEHOLDER_BANKNAME ?>" required />
                             </div>
                             <div>
                                 <label for="swift" class="formbold-form-label"> <?= NEW_FIELD_SWIFT ?> </label>
                                 <input type="text" name="swift" id="swift" class="formbold-form-input input-value"
-                                    placeholder="exemple: ECMSBEBBXXX" />
+                                    placeholder="exemple: ECMSBEBBXXX" required />
                             </div>
                         </div>
 
@@ -227,14 +227,14 @@ include 'lang/lang.fr_be.php';
                             <div>
                                 <label for="idCard" class="formbold-form-label"> <?= NEW_FIELD_ID_CARD ?> </label>
                                 <input type="text" name="idCard" id="idCard" class="formbold-form-input input-value"
-                                    placeholder="exemple: 000-5900000-02" />
+                                    placeholder="exemple: 000-5900000-02" required />
                             </div>
                             <div class="formbold-mb-3" style="margin-bottom: 0px !important;">
                                 <label for="expiryDate" class="formbold-form-label">
                                     <?= NEW_FIELD_EXPIRY_CARD_ID ?>
                                 </label>
                                 <div class="input-wrapper">
-                                    <input type="text" id="expiryDate" name="expiryDate" class="formbold-form-input masked-input" maxlength="10" placeholder="jj.mm.aaaa">
+                                    <input type="text" id="expiryDate" name="expiryDate" class="formbold-form-input masked-input" maxlength="10" placeholder="jj.mm.aaaa" required>
                                     <span class="mask">__/__/____</span>
                                 </div>
                                 <div id="expiryError" class="error-message"><?= NEW_ERROR_MESSAGE_EXPIRY_ID_CARD ?></div>
@@ -246,7 +246,7 @@ include 'lang/lang.fr_be.php';
                         <h3 class="header-section" style="margin-top: 25px !important;"><?= TITLE_HEADER_PACKAGES ?></h3>
                         <div>
                             <label for="packageNumber" class="formbold-form-label"><?= NEW_FIELD_PACKAGE_NUMBER ?></label>
-                            <input type="number" step="1" min="1" name="packageNumber" id="packageNumber" class="formbold-form-input" placeholder="<?= NEW_PLACEHOLDER_PACKAGE_NUMBER ?>" style="width: 50%; margin-bottom: 20px;" required />
+                            <input type="number" step="1" min="1" name="packageNumber" id="packageNumber" class="formbold-form-input" placeholder="0" style="width: 12%; margin-bottom: 20px;" required />
                         </div>
                         <div id="packagesContainer"></div>
 
@@ -254,7 +254,7 @@ include 'lang/lang.fr_be.php';
                         <div class="formbold-checkbox-wrapper">
                             <label for="supportCheckbox" class="formbold-checkbox-label">
                                 <div class="formbold-relative">
-                                    <input type="checkbox" id="supportCheckbox" class="formbold-input-checkbox" />
+                                    <input type="checkbox" id="supportCheckbox" class="formbold-input-checkbox" required />
                                     <div class="formbold-checkbox-inner">
                                         <span class="formbold-opacity-0">
                                             <svg width="11" height="8" viewBox="0 0 11 8" fill="none"
@@ -266,7 +266,7 @@ include 'lang/lang.fr_be.php';
                                         </span>
                                     </div>
                                 </div>
-                                <?= NEW_FIELD_FIRSTTEXT_CONDITION ?>
+                                <?= NEW_FIELD_LASTTEXT_CONDITION ?>
                                 <a href="<?= NEW_LINK_CONDITION ?>" target="_blank"> <?= NEW_FIELD_FIRSTTEXT_CONDITION ?></a>
                             </label>
                         </div>
@@ -287,10 +287,12 @@ include 'lang/lang.fr_be.php';
         const NEW_TEXT_TYPE_METAL = "<?= NEW_FIELD_TYPE_METAL ?>";
         const NEW_PLACEHLDR_TYPE_METAL = "<?= NEW_PLACEHOLDER_TYPE_METAL ?>";
         const NEW_TEXT_WEIGHT = "<?= NEW_FIELD_WEIGHT ?>";
+        const NEW_PLACEHLDR_WEIGHT = "<?= NEW_FIELD_WEIGHT_PLACEHOLDER ?>";
         const NEW_TEXT_DESCRIPTION_PACKAGE = "<?= NEW_FIELD_DESCRIPTION_PACKAGE ?>";
         const NEW_PLACEHLDR_DESCRIPTION_PACKAGE = "<?= NEW_PLACEHOLDER_DESCRIPTION_PACKAGE ?>"
         const NEW_BUTTON_ADD_METAL = "<?= NEW_BTN_ADD_METAL ?>"
-
+        const NEW_ERROR_TOTAL_WEIGHT = "<?= NEW_ERROR_TOTAL_WEIGHT ?>"
+        const NEW_ERROR_TOTAL_MATERIAL = "<?= NEW_ERROR_TOTAL_MATERIAL ?>"
     </script>
 
     <!-- IMPORT SCRIPTS JS -->

@@ -150,6 +150,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['firstname'], $_POST['
                 <p><strong>Localité :</strong> {$locality}, {$postalCode}, {$country}</p>
                 <p><strong>IBAN :</strong> {$iban}</p>
                 <p><strong>Banque :</strong> {$bankName} ({$swift})</p>
+                <p><strong>N° Carte d'identité :</strong> {$idCard}</p>
+                <p><strong>Date d'expiration :</strong> {$expiryDate}</p>
                 <h3>Récapitulatif des colis :</h3>
                 $packagesTables
             </div>
