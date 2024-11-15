@@ -1,5 +1,5 @@
 <?php
-include 'lang/lang.fr_be.php';
+include 'lang/lang.en_uk.php';
 
 use Picqer\Barcode\BarcodeGeneratorPNG;
 
