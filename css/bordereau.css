@@ -423,14 +423,16 @@ footer {
 
 .line-doted {
     position: absolute;
-    width: 130px;
+    /* width: 130px; */
+    width: 40px; /* DE */
     border-top: 3px dotted black;
     top: 11px;
     left: 19px;
 }
 .line-doted2 {
     position: absolute;
-    width: 122px;
+    /* width: 122px; */
+    width: 32px; /* DE */
     border-top: 3px dotted black;
     top: 11px;
     right: 26px;

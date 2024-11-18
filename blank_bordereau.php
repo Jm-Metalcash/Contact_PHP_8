@@ -1,5 +1,5 @@
 <?php
-include 'lang/lang.en_uk.php';
+include 'lang/lang.de_de.php';
 
 use Picqer\Barcode\BarcodeGeneratorPNG;
 
@@ -144,11 +144,11 @@ $relativeBarcodePathGeneral = './images/barcodes/barcode-general-' . $uniqueId .
                                     <td style="border-right: 1px solid #ddd;"></td>
                                     <td></td>
                                 </tr>
-                                <tr style="height: 30px;">
+                                <!-- <tr style="height: 30px;">
                                     <td style="border-right: 1px solid #ddd;"></td>
                                     <td style="border-right: 1px solid #ddd;"></td>
                                     <td></td>
-                                </tr>
+                                </tr> -->
                             </tbody>
                         </table>
                     </section>
