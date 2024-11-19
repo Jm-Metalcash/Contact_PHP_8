@@ -1,5 +1,5 @@
 <?php
-include 'lang/lang.de_de.php';
+include 'lang/lang.en_uk.php';
 
 use Picqer\Barcode\BarcodeGeneratorPNG;
 
@@ -111,8 +111,8 @@ $relativeBarcodePathGeneral = './images/barcodes/barcode-general-' . $uniqueId .
                                 <p><?= htmlspecialchars(NEW_FIELD_SWIFT) ?>: <span class="filling-area-blank" style="width: 315px !important;"></span></p>
                             </div>
                             <div class="info-grid info-grid-blank" style="margin-top: 42px;">
-                                <p class="spaced-blank"><?= htmlspecialchars(NEW_FIELD_ID_CARD_BORDEREAU) ?>: <span class="filling-area-blank" style="width: 257px !important;"></span></p>
-                                <p class="spaced-blank"><?= htmlspecialchars(NEW_FIELD_ID_EXPIRY_BORDEREAU) ?>: <span class="filling-area-blank" style="width: 257px !important;"></span></p>
+                                <p class="spaced-blank"><?= htmlspecialchars(NEW_FIELD_ID_CARD_BORDEREAU) ?>: <span class="filling-area-blank" style="width: 260px !important;"></span></p>
+                                <p class="spaced-blank"><?= htmlspecialchars(NEW_FIELD_ID_EXPIRY_BORDEREAU) ?>: <span class="filling-area-blank" style="width: 260px !important;"></span></p>
                                 <span class="expiry-date-separate" style="color: #a5a5a5;">/</span>
                                 <span class="expiry-date-separate2" style="color: #a5a5a5;">/</span>
                             </div>

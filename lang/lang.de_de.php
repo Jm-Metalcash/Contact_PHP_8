@@ -884,7 +884,7 @@ define("BTN_DOWNLOAD_PDF", "Télécharger PDF - colis");
 define("BTN_TEXT2_DOWNLOAD_PDF", "Colis");
 define("TITLE_HEADER_BORDEREAU", "Kaufbeleg");
 define("DATE_GENERATE_BARRE_CODE", "Créé le");
-define("HEADER_BORDEREAU_INFORMATIONS", "POSTVERSANDDIENST");
+define("HEADER_BORDEREAU_INFORMATIONS", "POSTVERSAND DIENST");
 define("HEADER_BORDEREAU_NOTE", "NOTE: Les colis pesant moins de 10 kg ne sont pas acceptés (voir les conditions en bas de page).");
 define("BENEFICIARY_INFO", "Identifizierung des Begünstigen");
 define("BENEFICIARY_INFO_BANKNAME", "Bank");

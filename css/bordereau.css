@@ -423,16 +423,16 @@ footer {
 
 .line-doted {
     position: absolute;
-    /* width: 70px; */
-    width: 40px;
+    width: 122px;
+    /* width: 40px; */
     border-top: 3px dotted black;
     top: 11px;
     left: 19px;
 }
 .line-doted2 {
     position: absolute;
-    /* width: 60px; */
-    width: 32px;
+    width: 113px;
+    /* width: 32px; */
     border-top: 3px dotted black;
     top: 11px;
     right: 26px;
@@ -601,13 +601,13 @@ footer {
 .expiry-date-separate {
     position: absolute;
     top: 85%;
-    right: 135px;
+    right: 168px;
     font-size: 18px;
 }
 .expiry-date-separate2 {
     position: absolute;
     top: 85%;
-    right: 70px;
+    right: 97px;
     font-size: 18px;
 }
 
