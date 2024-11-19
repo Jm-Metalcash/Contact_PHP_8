@@ -895,7 +895,7 @@ define("NEW_FIELD_ID_CARD_BORDEREAU", "Personalausweisnummer");
 define("NEW_FIELD_ID_EXPIRY_BORDEREAU", "Ablaufdatum");
 define("BORDEREAU_CONDITION_ACCEPT", "Indem Sie dieses Dokument unterzeichnen Sie akzeptieren unsere Allgemeinen Geschäftsbedingungen.");
 define("BORDEREAU_CERTIFCATE_TITLE", "Eigentumsbescheinigung");
-define("BORDEREAU_CERTIFCATE_DESCRIPTION", "Ich bescheinige ehrenwörtlich dass das zum Verkauf angebotene Material gehört ausschließlich mir und ohne Einschränkung und dass es sich nicht um illegale Aktivitäten handelt nicht abgetreten Und das enthält keine gefährlichen oder radioaktiven Bestandteile.");
+define("BORDEREAU_CERTIFCATE_DESCRIPTION", "Ich bescheinige ehrenwörtlich dass das zum Verkauf angebotene Material gehört ausschließlich mir und ohne Einschränkung und dass es sich nicht um illegale Aktivitäten handelt nicht abgetreten und das enthält keine gefährlichen oder radioaktiven Bestandteile.");
 define("BORDEREAU_CONDITIONS_TITLE", "Lesen Sie die Allgemeinen Geschäftsbedingungen und häufig gestellte Fragen");
 define("BORDEREAU_CONDITIONS_LINK1", "https://www.metallcash.de/legal");
 define("BORDEREAU_CONDITIONS_LINK2", "https://www.metallcash.de/faq");
