@@ -886,20 +886,20 @@ define("HEADER_BORDEREAU_NOTE", "NOTE: Les colis pesant moins de 10 kg ne sont p
 define("BENEFICIARY_INFO", "Beneficiary Identification");
 define("BENEFICIARY_INFO_BANKNAME", "Bank");
 define("BENEFICIARY_INFO_STREET", "Street");
-define("BENEFICIARY_INFO_LOCALITY", "PC, Locality");
+define("BENEFICIARY_INFO_LOCALITY", "PC, Location");
 define("BENEFICIARY_INFO_PHONE", "Phone Number");
 define("NEW_FIELD_ID_CARD_BORDEREAU", "ID Card Number");
 define("NEW_FIELD_ID_EXPIRY_BORDEREAU", "Expiry Date");
 define("BORDEREAU_CONDITION_ACCEPT", "By signing this document, you agree to our terms and conditions.");
 define("BORDEREAU_CERTIFCATE_TITLE", "Certificate of Ownership");
-define("BORDEREAU_CERTIFCATE_DESCRIPTION", "I solemnly certify that the material offered for sale is my exclusive and unrestricted property, that it does not originate from any illegal activity, is neither pledged nor transferred, and does not contain any hazardous or radioactive components.");
+define("BORDEREAU_CERTIFCATE_DESCRIPTION", "I solemnly certify that the material offered for sale is my exclusive and unrestricted property, that it does not originate from any illegal activity, is neither pawned nor transferred, and does not contain any hazardous or radioactive components.");
 define("BORDEREAU_CONDITIONS_TITLE", "Read the Terms and Conditions and the Frequently Asked Questions");
 define("BORDEREAU_CONDITIONS_LINK1", "https://www.metalcash.co.uk/legal");
 define("BORDEREAU_CONDITIONS_LINK2", "https://www.metalcash.co.uk/faq");
 define("BORDEREAU_DATE", "Date and Place:");
 define("BORDEREAU_SIGNATURE_NAME", "Name:");
 define("BORDEREAU_SIGNATURE", "Signature:");
-define("BORDEREAU_CUTE_TEXT", "Don't forget to cut out the section below and attach it implain signt to the outside of the package");
+define("BORDEREAU_CUTE_TEXT", "Don't forget to cut out the section below and attach it in plain sight on the package");
 define("BORDEREAU_BLANK_NAME_FIRSTNAME", "Your name");
 define("BORDEREAU_BTN_BACK", "Back home");
 ?>
